@@ -1,0 +1,61 @@
+{
+    "$schema": "https://raw.githubusercontent.com/revisit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Stats Study",
+        "version": "pilot",
+        "authors": [
+            "The reVISit Team"
+        ],
+        "date": "2024-03-19",
+        "description": "A simple stats study",
+        "organizations": ["WPI"]
+    },
+    "uiConfig": {
+        "contactEmail": "contact@revisit.dev",
+        "helpTextPath": "stats-study/assets/help.md",
+        "logoPath": "revisitAssets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "stats-study/assets/introduction.md",
+            "response": []
+        },
+        "linked-view": {
+            "type": "react-component",
+            "instruction": "You can edit the data, and see basic statistics and distribution.",
+            "description": "Basic statistics",
+            "instructionLocation": "sidebar",
+            "path": "statisvis/assets/LinkedGraph.jsx",
+            "response": []
+        },
+        "linear-regression": {
+            "type": "react-component",
+            "description": "Linear regression",
+            "instruction": "- With Draw mode, you can click on scatter plot to add points, then show new regression lines that reflect new data.\n - With the Guess regression mode, you can draw a possible regression line on the scatter plot, and compare to actual results.",
+            "instructionLocation": "sidebar",
+            "path": "statisvis/assets/LinearReg.jsx",
+            "response": []
+        },
+        "sampling-distribution": {
+            "type": "react-component",
+            "description": "Central Limit Theorm",
+            "instruction": "- This interactive demo illustrates the Central Limit Throrem: Regardless of the population shape, the distribution of sample means tends to be normal as the number of samples increase.\n - Select a population shape, sample size and number of samples. Then click Simulate button to see how the distributon of sample means forms.",
+            "instructionLocation": "sidebar",
+            "path": "statisvis/assets/SamplingSimulator.jsx",
+            "response": []
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "linked-view",
+            "linear-regression",
+            "sampling-distribution"
+        ]
+    }
+}
