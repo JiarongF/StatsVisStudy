@@ -32,6 +32,13 @@
             "path": "statisvis/assets/LinkedGraph.jsx",
             "response": []
         },
+        "correlation": {
+            "type": "react-component",
+            "instruction": "- Adjust the slider to change the strength and direction of correlation.\n - Add points by clicking on the chart to see how they affect the correlation. \n - Watch how patterns shift and learn what correlation really looks like!",
+            "instructionLocation": "sidebar",
+            "path": "statisvis/assets/CorrelationExplorer.jsx",
+            "response": []
+        },
         "linear-regression": {
             "type": "react-component",
             "description": "Linear regression",
@@ -54,6 +61,7 @@
         "components": [
             "introduction",
             "linked-view",
+            "correlation",
             "linear-regression",
             "sampling-distribution"
         ]
