@@ -26,7 +26,7 @@
         },
         "linked-view": {
             "type": "react-component",
-            "instruction": "You can edit the data, and see basic statistics and distribution.",
+            "instruction": "You can add the data, and see basic statistics and distribution.",
             "description": "Basic statistics",
             "instructionLocation": "sidebar",
             "path": "statisvis/assets/LinkedGraph.jsx",
@@ -34,7 +34,7 @@
         },
         "correlation": {
             "type": "react-component",
-            "instruction": "- Adjust the slider to change the strength and direction of correlation.\n - Add points by clicking on the chart to see how they affect the correlation. \n - Watch how patterns shift and learn what correlation really looks like!",
+            "instruction": "Explore correlation: adjust the relationship strength, add points, and observe how the Pearson correlation coefficient changes.",
             "instructionLocation": "sidebar",
             "path": "statisvis/assets/CorrelationExplorer.jsx",
             "response": []
@@ -42,7 +42,7 @@
         "linear-regression": {
             "type": "react-component",
             "description": "Linear regression",
-            "instruction": "- With Draw mode, you can click on scatter plot to add points, then show new regression lines that reflect new data.\n - With the Guess regression mode, you can draw a possible regression line on the scatter plot, and compare to actual results.",
+            "instruction": "Learn linear regression: add points, view the best-fit line, see residuals, and explore predictions step by step.",
             "instructionLocation": "sidebar",
             "path": "statisvis/assets/LinearReg.jsx",
             "response": []
