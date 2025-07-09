@@ -30,6 +30,7 @@
             "description": "Basic statistics",
             "instructionLocation": "sidebar",
             "path": "statisvis/assets/LinkedGraph.jsx",
+            "recordAudio": true,
             "response": []
         },
         "correlation": {
@@ -37,6 +38,7 @@
             "instruction": "Explore correlation: adjust the relationship strength, add points, and observe how the Pearson correlation coefficient changes.",
             "instructionLocation": "sidebar",
             "path": "statisvis/assets/CorrelationExplorer.jsx",
+            "recordAudio": true,
             "response": []
         },
         "linear-regression": {
@@ -45,6 +47,7 @@
             "instruction": "Learn linear regression: add points, view the best-fit line, see residuals, and explore predictions step by step.",
             "instructionLocation": "sidebar",
             "path": "statisvis/assets/LinearReg.jsx",
+            "recordAudio": true,
             "response": []
         },
         "sampling-distribution": {
@@ -52,6 +55,7 @@
             "description": "Central Limit Theorm",
             "instruction": "- This interactive demo illustrates the Central Limit Throrem: Regardless of the population shape, the distribution of sample means tends to be normal as the number of samples increase.\n - Select a population shape, sample size and number of samples. Then click Simulate button to see how the distributon of sample means forms.",
             "instructionLocation": "sidebar",
+            "recordAudio": true,
             "path": "statisvis/assets/SamplingSimulator.jsx",
             "response": []
         }
