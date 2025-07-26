@@ -64,7 +64,10 @@
         "order": "fixed",
         "components": [
             "introduction",
-            "linear-regression"
+            "linked-view",
+            "correlation",
+            "linear-regression",
+            "sampling-distribution"
         ]
     }
 }
