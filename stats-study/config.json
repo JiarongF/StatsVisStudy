@@ -24,6 +24,16 @@
             "path": "stats-study/assets/introduction.md",
             "response": []
         },
+
+        "linked-view": {
+            "type": "react-component",
+            "instruction": "You can add the data, and see basic statistics and distribution.",
+            "description": "Basic statistics",
+            "instructionLocation": "sidebar",
+            "path": "statisvis/assets/LinkedGraph.jsx",
+            "recordAudio": true,
+            "response": []
+        },
         
         "correlation": {
             "type": "react-component",
@@ -57,6 +67,7 @@
         "order": "fixed",
         "components": [
             "introduction",
+            "linked-view",
             "correlation",
             "linear-regression",
             "sampling-distribution"
